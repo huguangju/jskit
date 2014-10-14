@@ -99,3 +99,13 @@ function setFocus( obj ){
 function $$( id ){
 	return document.getElementById( id );
 }
+
+//----------------- Fantastic ---------------------
+
+/**
+ * 使页面可编辑
+ */
+function editableDocument(){
+	document.body.contentEditable = "true";
+	document.designMode = "on";
+}
